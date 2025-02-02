@@ -5,15 +5,26 @@
 !*/
 
 !.gitignore
+!config.fish
 !Dockerfile
+!starship.toml
 
+# c
 !**/*.c
 !**/*.h
 !**/*.clangd
 !**/*.clang-format
 !**/Makefile
 
+# python
 !**/*.py
 
+# typescript
+!**/*.ts
+!**/bun.lock
+!**/package.json
+!**/tsconfig.json
+
+# general
 !**/*.md
 !**/*.yaml
