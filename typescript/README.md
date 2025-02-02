@@ -2,13 +2,13 @@
 
 To install dependencies:
 
-```bash
+```fish
 bun install
 ```
 
 To test:
 
-```bash
+```fish
 bun test
 ```
 

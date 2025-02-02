@@ -6,12 +6,22 @@ RUN apt-get update && \
     apt-get -y install unminimize && \
     (echo "y"; echo "y") | unminimize
 
+# Tools
 RUN apt-get update && \
-    apt-get -y install wget gcc make gdb valgrind man-db manpages curl fish bat less uthash-dev
+    apt-get -y install wget curl fish bat less
 
-# https://bun.sh/docs/installation#macos-and-linux
+# C
+RUN apt-get update && \
+    apt-get -y install gcc make gdb valgrind man-db manpages uthash-dev
+
+# Python
+RUN apt-get update && \
+    apt-get -y install python3-pytest
+
+# TypeScript
 RUN apt-get update && \
     apt-get -y install unzip
+# https://bun.sh/docs/installation#macos-and-linux
 RUN curl -fsSL https://bun.sh/install | bash
 
 # https://github.com/sharkdp/hyperfine?tab=readme-ov-file#on-ubuntu

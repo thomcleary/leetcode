@@ -18,6 +18,7 @@
 
 # python
 !**/*.py
+!python/pytest.ini
 
 # typescript
 !**/*.ts

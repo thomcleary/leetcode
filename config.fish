@@ -6,9 +6,9 @@ alias bat=batcat
 set -x MANPAGER \"sh -c 'col -bx | batcat -l man -p'\"
 set -x MANROFFOPT "-c"
 
-# starship
-starship init fish | source
-
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# starship
+starship init fish | source

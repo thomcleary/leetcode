@@ -14,6 +14,5 @@ For hash table operations, you may use uthash. "uthash.h" is included by default
 
 ## TODO
 
-- Learn a unit testing framework?
+- Use a unit testing framework?
   - <https://www.throwtheswitch.org/unity>
-  - Run unit tests in GitHub Actions on push?
