@@ -1,4 +1,4 @@
-# Typescript
+# TypeScript
 
 To install dependencies:
 
