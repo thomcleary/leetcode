@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { twoSum } from "./01-two-sum";
+import { twoSum } from ".";
 
 describe("Two Sum", () => {
   test("Example 1", () => {

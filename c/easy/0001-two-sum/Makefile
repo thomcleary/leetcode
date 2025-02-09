@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -std=gnu11 -O2 -Wall -Wextra -Werror -pedantic -Wshadow -Wuninitialized -Wformat -Wconversion
-OBJ = tests.o two-sum.o
-TARGET = tests
+OBJ = test.o two-sum.o
+TARGET = test
 
 all: $(TARGET)
 

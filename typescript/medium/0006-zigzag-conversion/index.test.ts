@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { convert } from "./06-zigzag-conversion";
+import { convert } from ".";
 
 describe("Zigzag Conversion", () => {
   test("Example 1", () => {
