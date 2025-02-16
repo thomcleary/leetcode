@@ -9,8 +9,7 @@ describe("Remove Element", () => {
     const result = removeElement(nums, val);
 
     expect(result).toBe(2);
-    expect(nums.slice(0, result).some((n) => n == val)).toBe(false);
-    console.log(nums);
+    expect(nums.slice(0, result).some((n) => n == val)).toBeFalse();
   });
 
   test("Example 2", () => {
@@ -20,6 +19,6 @@ describe("Remove Element", () => {
     const result = removeElement(nums, val);
 
     expect(result).toBe(5);
-    expect(nums.slice(0, result).some((n) => n == val)).toBe(false);
+    expect(nums.slice(0, result).some((n) => n == val)).toBeFalse();
   });
 });
