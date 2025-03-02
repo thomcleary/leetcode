@@ -12,4 +12,6 @@ class Solution(object):
                 return [left, right]
             hashmap[num] = left
 
-        raise AssertionError("You may assume that each input would have exactly one solution")
+        raise AssertionError(
+            "You may assume that each input would have exactly one solution"
+        )
